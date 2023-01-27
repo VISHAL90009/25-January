@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+  
+// Driver Code
+int main()
+{
+    // Variable declaration
+    char a, b;
+    int c;
+  
+    a ='A';
+    b = 'b';
+  
+    // Typecasting
+    c = (int)a + b;
+  
+    cout << "Result: " << c;
+  
+    return 0;
+}
